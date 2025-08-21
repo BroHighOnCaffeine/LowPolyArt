@@ -110,9 +110,9 @@ import random
 from PIL import Image, ImageEnhance
 
 # === CONFIG ===
-image_path = "c1.jpg"     # Input image
+image_path = "f2.jpg"     # Input image
 output_path = "low_poly_result.png"  # Output image
-num_points = 2000          # Number of points (controls detail)
+num_points = 12000         # Number of points (controls detail)
 
 # === Load image ===
 img = cv2.imread(image_path)
